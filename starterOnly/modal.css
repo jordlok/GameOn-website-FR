@@ -58,7 +58,7 @@ img {
   border-radius: 15px;
 }
 
-.topnav a.active {
+.topnav a:active {
   background-color: #ff0000;
   color: #ffffff;
   border-radius: 15px;
@@ -135,6 +135,7 @@ main {
   margin: 20px;
   padding: 10px;
   font-family: var(--font-slab);
+  background-color: red;
 }
 
 /* Modal form */
@@ -305,6 +306,8 @@ input[data-error]::after {
   opacity: 1;
   cursor: pointer;
   transform: scale(0.7);
+
+
 }
 .close:before,
 .close:after {
