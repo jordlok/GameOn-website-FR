@@ -52,7 +52,13 @@
       <div class="content">
         <span class="close"></span>
         <div class="modal-body">
-          <form name="reserve" action="traitement.php" method="post" id="formBox" onsubmit="return formValid(this);">
+          <form name="reserve" action="" method="get" id="formBox" onsubmit="return false;">
+            <div class="formConfirmation">
+              <div>
+                <p> Merci pour <br> votre inscription</p>
+                <span class="closeValidation">Fermer</span>
+              </div>
+            </div>
             <div class="formData">
               <label>Prénom</label><br>
               <input class="text-control" type="text" id="first" name="first" minlength="2" maxlength="30"
@@ -128,6 +134,7 @@
               <br>
             </div>
             <input class="btn-submit button" type="submit" value="C'est parti" />
+            
           </form>
         </div>
       </div>
